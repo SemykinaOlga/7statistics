@@ -40,7 +40,6 @@
                 <configuration>
                     <rules>
                         <rule>
-                            <element>CLASS</element>
                             <limits>
                                 <limit>
                                     <counter>BRANCH</counter>
@@ -54,7 +53,6 @@
                 <executions>
                     <execution>
                         <id>check</id>
-                        <phase>verify</phase>
                         <goals>
                             <goal>check</goal>
                         </goals>
